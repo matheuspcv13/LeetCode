@@ -7,9 +7,9 @@ class Solution {
      * @return Integer
      */
     function removeDuplicates(&$nums) {
-        $index = 0;
+        $index = 1;
 
-        for ($i = 0; $i < count($nums); $i++)
+        for ($i = 1; $i < count($nums); $i++)
         {
             if ($nums[$i] != $nums[$i - 1])
             {
